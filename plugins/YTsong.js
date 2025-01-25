@@ -1,6 +1,6 @@
 const { cmd, commands } = require("../command");
 const yts = require("yt-search");
-const { ytmp3 } = require("");
+const { ytmp3 } = require("@vreden/youtube_scraper");
 
 cmd(
   {
@@ -40,7 +40,7 @@ cmd(
     }
   ) => {
     try {
-      if (!q) return reply("*නමක් හරි ලින්ක් එකක් හරි දෙන්න* 🌚❤️");
+      if (!q) return reply("*නමක් හරි ලින්ක් එකක් හරි දෙන්න* 🌚");
 
       // Search for the video
       const search = await yts(q);
@@ -49,7 +49,7 @@ cmd(
 
       // Song metadata description
       let desc = `
-*❤️ROBIN SONG DOWNLOADER❤️*
+*ASTRON SONG DOWNLOADER 😼*
 
 👻 *title* : ${data.title}
 👻 *description* : ${data.description}
@@ -58,7 +58,9 @@ cmd(
 👻 *views* : ${data.views}
 👻 *url* : ${data.url}
 
-𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋
+*watsapp channel link* - https://whatsapp.com/channel/0029Vb0bsRuFnSz4XAQ2yT0r
+
+*> MADE BY @nimsara*
 `;
 
       // Send metadata thumbnail message
