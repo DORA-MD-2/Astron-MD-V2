@@ -10,9 +10,13 @@ cmd({
     filename: __filename
 },
 async(robin, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
+try{  
+
      await robin.sendPresenceUpdate('recording', from); 
      await robin.sendMessage(from, { audio: { url: "https://github.com/nethmintha/example_da/raw/refs/heads/main/auto_voice/Astron%20joker.MP3" }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
+
+     await robin.sendMessage(from,{sticker: { url : "https://github.com/nethmintha/example_da/raw/refs/heads/main/auto_sticker/aastron.webp"},package: 'N_I_M_S_A_R_A'},{ quoted: mek })   
+
 return await robin.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: config.ALIVE_MSG},{quoted: mek})
     
 }catch(e){
