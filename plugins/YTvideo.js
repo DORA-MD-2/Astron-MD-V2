@@ -82,7 +82,7 @@ cmd(
         from,
         {
           video: video.buffer,
-          caption: `🎥 *${video.title}*\n\nMADE BY @nimsara*`,
+          caption: `🎥 *${video.title}*\n\n*MADE BY @nimsara*`,
         },
         { quoted: mek }
       );
