@@ -13,4 +13,7 @@ module.exports = {
   ALIVE_MSG: process.env.ALIVE_MSG || "Hello , I am alive now!!\n\n*🤡 Made by Nimsara 🤡*\n\n*watsapp channel link* - https://whatsapp.com/channel/0029Vb0bsRuFnSz4XAQ2yT0r",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   MODE: process.env.MODE || "public",
+  AUTO_VOICE: process.env.AUTO_VOICE || "true",
+  AUTO_STICKER: process.env.AUTO_STICKER || "true",
+  AUTO_REPLY: process.env.AUTO_REPLY || "true",
 };
