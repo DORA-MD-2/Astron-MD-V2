@@ -90,7 +90,7 @@ cmd(
       reply("*Thanks for using my bot!* ❤️");
     } catch (e) {
       console.error(e);
-      reply(❌ Error: ${e.message});
+      reply(`❌ Error: ${e.message}`);
     }
   }
 );
