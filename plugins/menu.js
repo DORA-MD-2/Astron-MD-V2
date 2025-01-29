@@ -88,6 +88,11 @@ ${menu.search}
 
 > Astron MENU MSG
 `;
+
+ await robin.sendPresenceUpdate('recording', from); 
+     await robin.sendMessage(from, { audio: { url: "https://github.com/nethmintha/example_da/raw/refs/heads/main/auto_voice/Astron%20phonk.MP3" }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
+
+
       await robin.sendMessage(
         from,
         {
