@@ -57,28 +57,28 @@ cmd(
         }
       }
 
-      let madeMenu = `👋🤡 *Hello  ${pushname}*
+      let madeMenu = `👋🤡 *Hellow  ${pushname}*
 
 
 | *MAIN COMMANDS* |
-    ▫️.alive
-    ▫️.menu
-    ▫️.ai <text>
-    ▫️.system
-    ▫️.owner
+    ▫️ .alive
+    ▫️ .menu
+    ▫️ .ai
+    ▫️ .system
+    ▫️ .owner
 | *DOWNLOAD COMMANDS* |
-    ▫️.song <text>
-    ▫️.video <text>
-    ▫️.fb <link>
+    ▫️ .song
+    ▫️ .video
+    ▫️ .fb
 | *GROUP COMMANDS* |
 ${menu.group}
 | *OWNER COMMANDS* |
-    ▫️.restart
-    ▫️.update
+    ▫️ .restart
+    ▫️ .update
 | *CONVERT COMMANDS* |
-    ▫️.sticker <reply img>
-    ▫️.img <reply sticker>
-    ▫️.tts <text>
+    ▫️ .sticker <reply img>
+    ▫️ .img <reply sticker>
+    ▫️ .tts <text>
 | *SEARCH COMMANDS* |
 ${menu.search}
 
