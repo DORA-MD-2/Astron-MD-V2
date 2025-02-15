@@ -7,7 +7,7 @@ const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/
 
 cmd({
   pattern: "gemini",
-  alias: ["ai","chatgpt"],
+  alias: ["ai","chatgpt","nim"],
   react: '🤖',
   desc: "Ask anything to Google Gemini AI.",
   category: "ai",
