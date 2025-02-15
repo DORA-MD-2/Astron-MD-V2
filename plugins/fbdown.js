@@ -1,5 +1,5 @@
 const { cmd, commands } = require("../command");
-const {default: getFbVideoInfo ) = import("fb-downloader-scrapper");
+const {default: getFbVideoInfo } = import("fb-downloader-scrapper");
 
 cmd(
   {
