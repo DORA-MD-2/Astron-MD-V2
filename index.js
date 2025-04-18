@@ -408,4 +408,4 @@ app.listen(port, () =>
 );
 setTimeout(() => {
   connectToWA();
-}, 4000);
+}, 8000);
